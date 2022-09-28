@@ -17,6 +17,9 @@ async function bootstrap() {
     .setTitle('Backend Challenge')
     .setDescription('The Post API description')
     .setVersion('1')
+    .addTag('post')
+    .addTag('comment')
+    .addTag('user')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);

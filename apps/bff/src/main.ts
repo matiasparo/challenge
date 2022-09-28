@@ -16,6 +16,7 @@ async function bootstrap() {
     .setTitle('BFF Challenge')
     .setDescription('The Post API description')
     .setVersion('1')
+    .addTag('post')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
